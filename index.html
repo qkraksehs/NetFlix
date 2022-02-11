@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>넷플릭스</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 제이쿼리 하위 호완성 추가 -->
+    <script src="./js/jquery-migrate-3.3.2.min.js"></script>
+    <!-- 패럴랙스 플러그인 -->
+    <script src="./js/jquery.stellar.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="#">
+                <img class="logo" src="./images/logo.png" alt="logo">
+            </a>
+        </h1>
+        <nav id="gnb">
+            <ul>
+                <li><a href="#school">지금우리학교는</a>
+                    <ul class="depth2">
+                        <li><a href="#school">윤찬영</a></li>
+                        <li><a href="#school">조이현</a></li>
+                        <li><a href="#school">로몬</a></li>
+                        <li><a href="#school">유인수</a></li>
+                    </ul>
+                </li>
+                <li><a href="#thatyear">그해우리는</a>
+                    <ul class="depth2">
+                        <li><a href="#thatyear">최우식</a></li>
+                        <li><a href="#thatyear">김다미</a></li>
+                        <li><a href="#thatyear">김성철</a></li>
+                    </ul>
+                </li>
+                <li><a href="#sea">고요의바다</a>
+                    <ul class="depth2">
+                        <li><a href="#sea">배두나</a></li>
+                        <li><a href="#sea">공유</a></li>
+                        <li><a href="#sea">이준</a></li>
+                    </ul>
+                </li>
+                <li><a class="event-link" href="#">더보기 <span>&gt;</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 지우학 -->
+    <section id="school" class="section-bg">
+        <div class="title-group">
+            <h2>
+                <img src="./images/logo-1.png" alt="지금우리학교는" date-stellar-background-ratio="0.5">
+            </h2>
+            <ul class="section-nav">
+                <li>
+                    <a href="#school">윤찬영</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#school">조이현</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#school">로몬</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#school">유인수</a>
+                </li>
+            </ul>
+            <div class="player">
+                <iframe src='https://vlive.tv/embed/274503?autoPlay=false' frameborder='no' scrolling='no'
+                    marginwidth='0' marginheight='0' WIDTH='800' HEIGHT='406' allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+    <!-- 그해우리는 -->
+    <section id="thatyear" class="section-bg" date-stellar-background-ratio="0.5">
+        <div class="title-group">
+            <h2>
+                <img src="./images/logo-2.png" alt="그해우리는">
+            </h2>
+            <ul class="section-nav">
+                <li>
+                    <a href="#thatyear">최우식</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#thatyear">김다미</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#thatyear">김성철</a>
+                </li>
+            </ul>
+            <div class="player">
+                <iframe src='https://tv.naver.com/embed/23406413?autoPlay=false' frameborder='no' scrolling='no'
+                    marginwidth='0' marginheight='0' WIDTH='800' HEIGHT='406' allow='autoplay' allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 고요의바다 -->
+    <section id="sea" class="section-bg" date-stellar-background-ratio="0.5">
+        <div class="title-group">
+            <h2>
+                <img src="./images/logo-3.png" alt="고요의바다">
+            </h2>
+            <ul class="section-nav">
+                <li>
+                    <a href="#sea">배두나</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#sea">공유</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#sea">이준</a>
+                </li>
+            </ul>
+            <div class="player">
+                <iframe src='https://vlive.tv/embed/271372?autoPlay=false' frameborder='no' scrolling='no'
+                    marginwidth='0' marginheight='0' WIDTH='800' HEIGHT='406' allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="./images/logo.png" alt="logo" class="footer-logo">
+        <ul class="footer-nav">
+            <li><a href="#">이용 약관</a></li>
+            <li><a href="#"><strong>개인정보</strong></a></li>
+            <li><a href="#">쿠키 설정</a></li>
+            <li><a href="#">회사 정보</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
